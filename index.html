@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <title>Albero genealogico Martini</title>
     <meta name="description" content="Albero genealogico interattivo della famiglia" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="app">
@@ -21,7 +27,11 @@
         </div>
       </header>
 
-      <main id="chart-cont" class="f3"></main>
+      <p id="hint">Tocca una persona per centrare l'albero su di lei · trascina per muoverti · pizzica per zoomare</p>
+
+      <main id="chart-cont" class="f3">
+        <button id="fit-btn" title="Adatta tutto l'albero alla vista" aria-label="Adatta alla vista">⤢</button>
+      </main>
 
       <aside id="detail-panel" hidden>
         <button id="detail-close" aria-label="Chiudi">✕</button>

@@ -11,6 +11,19 @@ function fullName(person) {
   return [person.givenName, person.surname].filter(Boolean).join(' ')
 }
 
+function initialsOf(person) {
+  const a = (person.givenName || '').trim()[0] || ''
+  const b = (person.surname || '').trim()[0] || ''
+  return (a + b).toUpperCase() || '?'
+}
+
+/** Escapa caratteri HTML per un uso sicuro dentro template literal. */
+export function escapeHtml(str) {
+  return String(str ?? '').replace(/[&<>"']/g, (c) => (
+    { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+  ))
+}
+
 function yearsLabel(person) {
   const birth = gedcomYear(person.birthDate)
   const death = gedcomYear(person.deathDate)
@@ -55,6 +68,7 @@ export function buildChartData(raw) {
         first_name: person.givenName || '',
         last_name: person.surname || '',
         married_name: person.marriedName || null,
+        initials: initialsOf(person),
         years: yearsLabel(person),
         birth_date_label: formatGedcomDate(person.birthDate),
         birth_place: person.birthPlace || null,

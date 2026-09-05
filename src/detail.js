@@ -1,4 +1,4 @@
-import { fullName } from './data.js'
+import { fullName, escapeHtml } from './data.js'
 import { formatGedcomDate } from './gedcomDate.js'
 
 const panel = document.getElementById('detail-panel')
@@ -7,7 +7,7 @@ const content = document.getElementById('detail-content')
 function personButton(individuals, id, label) {
   const person = individuals[id]
   const text = person ? fullName(person) : label || id
-  return `<button class="person-link" data-id="${id}">${text}</button>`
+  return `<button class="person-link" data-id="${id}">${escapeHtml(text)}</button>`
 }
 
 function relationLine(labelText, id, individuals) {
@@ -44,7 +44,7 @@ function buildRelations(raw, person) {
 
 function fieldLine(labelText, value) {
   if (!value) return ''
-  return `<p><span class="field-label">${labelText}</span> ${value}</p>`
+  return `<p><span class="field-label">${labelText}</span> ${escapeHtml(value)}</p>`
 }
 
 export function showDetail(raw, id, onNavigate) {
@@ -52,10 +52,10 @@ export function showDetail(raw, id, onNavigate) {
   if (!person) return
 
   const name = fullName(person)
-  const marriedName = person.marriedName ? ` (${person.marriedName})` : ''
+  const marriedName = person.marriedName ? ` (${escapeHtml(person.marriedName)})` : ''
 
   content.innerHTML = `
-    <h2>${name}${marriedName}</h2>
+    <h2>${escapeHtml(name)}${marriedName}</h2>
     ${fieldLine('Nascita:', [formatGedcomDate(person.birthDate), person.birthPlace].filter(Boolean).join(' – ') || null)}
     ${fieldLine('Morte:', [formatGedcomDate(person.deathDate), person.deathPlace].filter(Boolean).join(' – ') || null)}
     ${fieldLine('Causa:', person.deathCause)}

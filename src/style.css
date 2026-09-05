@@ -1,9 +1,16 @@
 :root {
   color-scheme: light;
-  --accent: #7a3b45;
-  --border: #e2ddd8;
-  --bg: #faf8f6;
-  --text: #2b2320;
+  --bg: #f6f1ea;
+  --surface: #ffffff;
+  --ink: #2f2a25;
+  --muted: #8a7c70;
+  --border: #e7dccd;
+  --accent: #94434a;
+  --accent-soft: rgba(148, 67, 74, 0.16);
+  --male: #5c7f96;
+  --female: #b17480;
+  --genderless: #a49a8e;
+  --line: #cdbba7;
 }
 
 * {
@@ -18,8 +25,8 @@ html,
 body {
   margin: 0;
   height: 100%;
-  font-family: 'Segoe UI', Roboto, system-ui, sans-serif;
-  color: var(--text);
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  color: var(--ink);
   background: var(--bg);
 }
 
@@ -34,17 +41,21 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.6rem 1rem;
-  background: white;
+  padding: 0.7rem 1.1rem;
+  background: var(--surface);
   border-bottom: 1px solid var(--border);
   position: relative;
   z-index: 50;
 }
 
 #top-bar h1 {
-  font-size: 1.1rem;
+  font-family: 'Manrope', 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
   margin: 0;
   white-space: nowrap;
+  color: var(--ink);
 }
 
 #search-box {
@@ -55,56 +66,173 @@ body {
 
 #search-input {
   width: 100%;
-  padding: 0.5rem 0.75rem;
+  padding: 0.55rem 0.9rem;
   border: 1px solid var(--border);
   border-radius: 999px;
-  font-size: 0.95rem;
+  font: inherit;
+  font-size: 0.9rem;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+#search-input::placeholder {
+  color: var(--muted);
 }
 
 #search-input:focus {
   outline: 2px solid var(--accent);
   outline-offset: 1px;
+  background: var(--surface);
 }
 
 #search-results {
   position: absolute;
-  top: calc(100% + 4px);
+  top: calc(100% + 6px);
   left: 0;
   right: 0;
   margin: 0;
-  padding: 0.25rem 0;
+  padding: 0.3rem 0;
   list-style: none;
-  background: white;
+  background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 0.5rem;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 24px rgba(50, 38, 28, 0.14);
   max-height: 280px;
   overflow-y: auto;
   z-index: 5;
 }
 
 #search-results li {
-  padding: 0.5rem 0.9rem;
+  padding: 0.55rem 1rem;
   cursor: pointer;
+  font-size: 0.92rem;
 }
 
 #search-results li:hover {
   background: var(--bg);
 }
 
+#hint {
+  margin: 0;
+  padding: 0.5rem 1.1rem;
+  font-size: 0.78rem;
+  color: var(--muted);
+  text-align: center;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
 #chart-cont {
   flex: 1;
   position: relative;
   overflow: hidden;
-  background: var(--bg);
+  background:
+    radial-gradient(circle at 1px 1px, rgba(148, 67, 74, 0.08) 1px, transparent 0) 0 0/22px 22px,
+    var(--bg);
 }
 
 .f3 {
-  --female-color: #b98a92;
-  --male-color: #6e8fa3;
-  --genderless-color: #c9c2ba;
+  --female-color: var(--female);
+  --male-color: var(--male);
+  --genderless-color: var(--genderless);
   --background-color: var(--bg);
-  --text-color: var(--text);
+  --text-color: var(--ink);
+}
+
+.f3 path.link {
+  stroke: var(--line) !important;
+  stroke-width: 1.5px !important;
+}
+
+/* card personalizzata (vedi cardInnerHtmlCreator in main.js) */
+.fc-card-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  width: 176px;
+  min-height: 58px;
+  padding: 0.4rem 0.75rem 0.4rem 0.4rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 1px 2px rgba(47, 34, 24, 0.06), 0 4px 12px rgba(47, 34, 24, 0.06);
+  text-align: left;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.f3 div.card:hover .fc-card-inner {
+  box-shadow: 0 2px 4px rgba(47, 34, 24, 0.1), 0 8px 20px rgba(47, 34, 24, 0.1);
+}
+
+.fc-avatar {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 0.78rem;
+}
+
+.card-male .fc-avatar {
+  background: var(--male);
+}
+
+.card-female .fc-avatar {
+  background: var(--female);
+}
+
+.card-genderless .fc-avatar {
+  background: var(--genderless);
+}
+
+.fc-text {
+  min-width: 0;
+}
+
+.fc-name {
+  font-weight: 600;
+  font-size: 0.82rem;
+  line-height: 1.2;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fc-years {
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-top: 1px;
+}
+
+.card-main .fc-card-inner {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft), 0 4px 14px rgba(47, 34, 24, 0.12);
+}
+
+#fit-btn {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 1.05rem;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(47, 34, 24, 0.14);
+  z-index: 15;
+}
+
+#fit-btn:hover {
+  background: var(--bg);
 }
 
 #detail-panel {
@@ -113,9 +241,9 @@ body {
   right: 0;
   width: min(340px, 100vw);
   height: 100%;
-  background: white;
+  background: var(--surface);
   border-left: 1px solid var(--border);
-  box-shadow: -8px 0 20px rgba(0, 0, 0, 0.08);
+  box-shadow: -8px 0 20px rgba(47, 34, 24, 0.08);
   padding: 1.25rem;
   overflow-y: auto;
   z-index: 40;
@@ -129,23 +257,28 @@ body {
   background: transparent;
   font-size: 1.1rem;
   cursor: pointer;
-  color: var(--text);
+  color: var(--ink);
   line-height: 1;
   padding: 0.4rem;
 }
 
 #detail-content h2 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
   margin: 0 1.75rem 0.75rem 0;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
+  color: var(--ink);
 }
 
 #detail-content p {
-  margin: 0.4rem 0;
-  line-height: 1.4;
+  margin: 0.45rem 0;
+  line-height: 1.45;
+  font-size: 0.92rem;
 }
 
 .field-label {
   font-weight: 600;
+  color: var(--muted);
   margin-right: 0.3rem;
 }
 
@@ -154,13 +287,15 @@ body {
   background: none;
   color: var(--accent);
   text-decoration: underline;
+  text-decoration-color: var(--accent-soft);
+  text-underline-offset: 2px;
   cursor: pointer;
   font: inherit;
   padding: 0;
 }
 
 .person-link:hover {
-  color: var(--text);
+  color: var(--ink);
 }
 
 #loading,
@@ -196,6 +331,16 @@ body {
     flex: 1 1 100%;
   }
 
+  #hint {
+    font-size: 0.72rem;
+    padding: 0.4rem 0.9rem;
+  }
+
+  #fit-btn {
+    left: 0.75rem;
+    top: 0.75rem;
+  }
+
   #detail-panel {
     top: auto;
     bottom: 0;
@@ -207,6 +352,6 @@ body {
     border-left: none;
     border-top: 1px solid var(--border);
     border-radius: 1rem 1rem 0 0;
-    box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 -8px 20px rgba(47, 34, 24, 0.14);
   }
 }

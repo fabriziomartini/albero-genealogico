@@ -1,12 +1,13 @@
 import * as f3 from 'family-chart'
 import 'family-chart/styles/family-chart.css'
 import './style.css'
-import { loadRawData, buildChartData } from './data.js'
+import { loadRawData, buildChartData, escapeHtml } from './data.js'
 import { setupSearch } from './search.js'
 import { showDetail } from './detail.js'
 
 const loading = document.getElementById('loading')
 const errorBanner = document.getElementById('error-banner')
+const hint = document.getElementById('hint')
 
 function getPersonFromUrl() {
   return new URLSearchParams(window.location.search).get('person')
@@ -17,6 +18,33 @@ function setPersonInUrl(id, { replace = false } = {}) {
   url.searchParams.set('person', id)
   if (replace) window.history.replaceState({ id }, '', url)
   else window.history.pushState({ id }, '', url)
+}
+
+function dismissHint() {
+  hint.hidden = true
+  try {
+    localStorage.setItem('fc_hint_dismissed', '1')
+  } catch {
+    // storage non disponibile: nessun problema, l'hint riapparirà al prossimo giro
+  }
+}
+
+function initialScale() {
+  return window.innerWidth < 640 ? 0.62 : 0.85
+}
+
+function personCardHtml(d) {
+  const p = d.data.data
+  const name = [p.first_name, p.last_name].filter(Boolean).join(' ') || 'Sconosciuto'
+  return `
+    <div class="fc-card-inner">
+      <div class="fc-avatar">${escapeHtml(p.initials)}</div>
+      <div class="fc-text">
+        <div class="fc-name">${escapeHtml(name)}</div>
+        ${p.years ? `<div class="fc-years">${escapeHtml(p.years)}</div>` : ''}
+      </div>
+    </div>
+  `
 }
 
 async function main() {
@@ -43,14 +71,14 @@ async function main() {
   const chart = f3.createChart(cont, chartData)
 
   chart
-    .setTransitionTime(600)
-    .setCardXSpacing(220)
-    .setCardYSpacing(150)
+    .setTransitionTime(500)
+    .setCardXSpacing(260)
+    .setCardYSpacing(140)
+    .setSingleParentEmptyCard(false)
 
   const card = chart.setCardHtml()
   card
-    .setCardDisplay([['first_name', 'last_name'], ['years']])
-    .setStyle('rect')
+    .setCardInnerHtmlCreator(personCardHtml)
     .setOnCardClick((e, d) => {
       recenterOn(d.data.id)
     })
@@ -58,17 +86,31 @@ async function main() {
   function recenterOn(id, { pushHistory = true } = {}) {
     if (!validIds.has(id)) return
     chart.updateMainId(id)
-    chart.updateTree({ tree_position: 'main_to_middle' })
+    chart.updateTree({ initial: false, tree_position: 'main_to_middle', scale: initialScale() })
     showDetail(raw, id, (targetId) => recenterOn(targetId))
     setPersonInUrl(id, { replace: !pushHistory })
+    dismissHint()
   }
 
   chart.updateMainId(initialId)
-  chart.updateTree({ initial: true, tree_position: 'main_to_middle' })
+  chart.updateTree({ initial: false, tree_position: 'main_to_middle', scale: initialScale() })
   showDetail(raw, initialId, (targetId) => recenterOn(targetId))
   setPersonInUrl(initialId, { replace: true })
 
   setupSearch(raw.individuals, (id) => recenterOn(id))
+
+  document.getElementById('fit-btn').addEventListener('click', () => {
+    chart.updateTree({ initial: false, tree_position: 'fit' })
+    dismissHint()
+  })
+
+  let hintDismissed = false
+  try {
+    hintDismissed = localStorage.getItem('fc_hint_dismissed') === '1'
+  } catch {
+    // storage non disponibile: mostriamo l'hint per sicurezza
+  }
+  if (hintDismissed) hint.hidden = true
 
   window.addEventListener('popstate', () => {
     const id = getPersonFromUrl()
