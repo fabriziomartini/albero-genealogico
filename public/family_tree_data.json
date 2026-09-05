@@ -1,0 +1,4476 @@
+{
+  "meta": {
+    "source": "MyHeritage GEDCOM export",
+    "surnameFamily": "Martini",
+    "individualCount": 236,
+    "familyCount": 72
+  },
+  "individuals": {
+    "I500001": {
+      "id": "I500001",
+      "givenName": "Fabrizio",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "15 OCT 1988",
+      "birthPlace": "Italy",
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500001",
+      "spouseInFamilies": []
+    },
+    "I500002": {
+      "id": "I500002",
+      "givenName": "Bruna Matilde",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1964",
+      "birthPlace": "Italy",
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500002",
+      "spouseInFamilies": [
+        "F500001"
+      ]
+    },
+    "I500003": {
+      "id": "I500003",
+      "givenName": "Mauro",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1955",
+      "birthPlace": "Italy",
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500003",
+      "spouseInFamilies": [
+        "F500001"
+      ]
+    },
+    "I500004": {
+      "id": "I500004",
+      "givenName": "Annamaria",
+      "surname": "Dottori",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "18 SEP 1926",
+      "birthPlace": "Italy",
+      "deathDate": "9 DEC 1993",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500024",
+      "spouseInFamilies": [
+        "F500002"
+      ]
+    },
+    "I500005": {
+      "id": "I500005",
+      "givenName": "Luigi Paolo Maria",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1932",
+      "birthPlace": "Italy",
+      "deathDate": "1996",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500022",
+      "spouseInFamilies": [
+        "F500002"
+      ]
+    },
+    "I500006": {
+      "id": "I500006",
+      "givenName": "Vera",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1935",
+      "birthPlace": "Italy",
+      "deathDate": "2014",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500020",
+      "spouseInFamilies": [
+        "F500003"
+      ]
+    },
+    "I500007": {
+      "id": "I500007",
+      "givenName": "Remo",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1926",
+      "birthPlace": "Italia",
+      "deathDate": "2006",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500005",
+      "spouseInFamilies": [
+        "F500003"
+      ]
+    },
+    "I500008": {
+      "id": "I500008",
+      "givenName": "Mara",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1996",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500001",
+      "spouseInFamilies": []
+    },
+    "I500009": {
+      "id": "I500009",
+      "givenName": "Luciano",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1969",
+      "birthPlace": null,
+      "deathDate": "2020",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500002",
+      "spouseInFamilies": [
+        "F500009"
+      ]
+    },
+    "I500010": {
+      "id": "I500010",
+      "givenName": "Giovanni",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1958",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500002",
+      "spouseInFamilies": [
+        "F500011"
+      ]
+    },
+    "I500011": {
+      "id": "I500011",
+      "givenName": "Marcello",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1960",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500003",
+      "spouseInFamilies": [
+        "F500007"
+      ]
+    },
+    "I500012": {
+      "id": "I500012",
+      "givenName": "Antonio",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1968",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500003",
+      "spouseInFamilies": [
+        "F500008"
+      ]
+    },
+    "I500013": {
+      "id": "I500013",
+      "givenName": "Antonella",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1971",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500003",
+      "spouseInFamilies": []
+    },
+    "I500014": {
+      "id": "I500014",
+      "givenName": "Antonio",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1890",
+      "birthPlace": null,
+      "deathDate": "1967",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500013",
+      "spouseInFamilies": [
+        "F500005"
+      ]
+    },
+    "I500015": {
+      "id": "I500015",
+      "givenName": "Ida",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1900",
+      "birthPlace": null,
+      "deathDate": "1973",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500072",
+      "spouseInFamilies": [
+        "F500005"
+      ]
+    },
+    "I500016": {
+      "id": "I500016",
+      "givenName": "Giovanni",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500058",
+      "spouseInFamilies": [
+        "F500020"
+      ]
+    },
+    "I500017": {
+      "id": "I500017",
+      "givenName": "Carolina",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1923",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500005",
+      "spouseInFamilies": [
+        "F500028"
+      ]
+    },
+    "I500018": {
+      "id": "I500018",
+      "givenName": "Simonetta",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": "2005",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500005",
+      "spouseInFamilies": [
+        "F500014"
+      ]
+    },
+    "I500019": {
+      "id": "I500019",
+      "givenName": "Francesca",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "21 JUL 1987",
+      "birthPlace": "Italia",
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500007",
+      "spouseInFamilies": []
+    },
+    "I500020": {
+      "id": "I500020",
+      "givenName": "Paola",
+      "surname": "Scatizzi",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1963",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500088",
+      "spouseInFamilies": [
+        "F500007"
+      ]
+    },
+    "I500021": {
+      "id": "I500021",
+      "givenName": "Simona",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1990",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500007",
+      "spouseInFamilies": []
+    },
+    "I500022": {
+      "id": "I500022",
+      "givenName": "Alessia",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1992",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500008",
+      "spouseInFamilies": [
+        "F500073"
+      ]
+    },
+    "I500023": {
+      "id": "I500023",
+      "givenName": "Alessandra",
+      "surname": "Pianaccioli",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500008"
+      ]
+    },
+    "I500024": {
+      "id": "I500024",
+      "givenName": "Andrea",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1995",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500008",
+      "spouseInFamilies": []
+    },
+    "I500025": {
+      "id": "I500025",
+      "givenName": "Alice",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1995",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500008",
+      "spouseInFamilies": []
+    },
+    "I500026": {
+      "id": "I500026",
+      "givenName": "Maria Cristina",
+      "surname": "Renzoni",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1967",
+      "birthPlace": null,
+      "deathDate": "2023",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500009"
+      ]
+    },
+    "I500029": {
+      "id": "I500029",
+      "givenName": "Daniela",
+      "surname": "Maglio",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1958",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500011"
+      ]
+    },
+    "I500032": {
+      "id": "I500032",
+      "givenName": "Elena",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1989",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500011",
+      "spouseInFamilies": [
+        "F500075"
+      ]
+    },
+    "I500033": {
+      "id": "I500033",
+      "givenName": "Stefano",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1991",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500011",
+      "spouseInFamilies": [
+        "F500074"
+      ]
+    },
+    "I500034": {
+      "id": "I500034",
+      "givenName": "Marta",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1994",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500011",
+      "spouseInFamilies": []
+    },
+    "I500035": {
+      "id": "I500035",
+      "givenName": "Lorenzo",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1989",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500009",
+      "spouseInFamilies": []
+    },
+    "I500036": {
+      "id": "I500036",
+      "givenName": "Ermenegildo",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500071",
+      "spouseInFamilies": [
+        "F500013"
+      ]
+    },
+    "I500037": {
+      "id": "I500037",
+      "givenName": "Lorena",
+      "surname": "Biondini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500014",
+      "spouseInFamilies": [
+        "F500066"
+      ]
+    },
+    "I500038": {
+      "id": "I500038",
+      "givenName": "Primo",
+      "surname": "Biondini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500014"
+      ]
+    },
+    "I500043": {
+      "id": "I500043",
+      "givenName": "Anna",
+      "surname": "Biondini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500014",
+      "spouseInFamilies": [
+        "F500086"
+      ]
+    },
+    "I500044": {
+      "id": "I500044",
+      "givenName": "Donatella",
+      "surname": "Biondini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500014",
+      "spouseInFamilies": [
+        "F500087"
+      ]
+    },
+    "I500045": {
+      "id": "I500045",
+      "givenName": "Bruno",
+      "surname": "Dottori",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1894",
+      "birthPlace": null,
+      "deathDate": "1961",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500044",
+      "spouseInFamilies": [
+        "F500023",
+        "F500024"
+      ]
+    },
+    "I500054": {
+      "id": "I500054",
+      "givenName": "Settimia",
+      "surname": "Giovacchini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500020"
+      ]
+    },
+    "I500055": {
+      "id": "I500055",
+      "givenName": "Giovanni",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "5 APR 1896",
+      "birthPlace": null,
+      "deathDate": "26 DEC 1974",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500043",
+      "spouseInFamilies": [
+        "F500022"
+      ]
+    },
+    "I500056": {
+      "id": "I500056",
+      "givenName": "Matilde",
+      "surname": "Catalano",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1906",
+      "birthPlace": null,
+      "deathDate": "1965",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500042",
+      "spouseInFamilies": [
+        "F500022"
+      ]
+    },
+    "I500058": {
+      "id": "I500058",
+      "givenName": "Giuseppa",
+      "surname": "Maranghi",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1901",
+      "birthPlace": null,
+      "deathDate": "1992",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500045",
+      "spouseInFamilies": [
+        "F500024"
+      ]
+    },
+    "I500060": {
+      "id": "I500060",
+      "givenName": "Renata",
+      "surname": "Dottori",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "25 MAY 1932",
+      "birthPlace": null,
+      "deathDate": "11 MAY 2021",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500024",
+      "spouseInFamilies": []
+    },
+    "I500061": {
+      "id": "I500061",
+      "givenName": "Milena",
+      "surname": "Dottori",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "29 MAR 1923",
+      "birthPlace": null,
+      "deathDate": "27 APR 2005",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500024",
+      "spouseInFamilies": [
+        "F500026"
+      ]
+    },
+    "I500062": {
+      "id": "I500062",
+      "givenName": "Gaetano",
+      "surname": "Dottori",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "15 OCT 1927",
+      "birthPlace": "Perugia",
+      "deathDate": "13 JAN 2023",
+      "deathPlace": "Perugia",
+      "deathCause": null,
+      "childOfFamily": "F500024",
+      "spouseInFamilies": []
+    },
+    "I500063": {
+      "id": "I500063",
+      "givenName": "Francesca",
+      "surname": "Dottori",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "9 MAR 1940",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500024",
+      "spouseInFamilies": [
+        "F500027"
+      ]
+    },
+    "I500064": {
+      "id": "I500064",
+      "givenName": "Giovanni Maria",
+      "surname": "Cossu",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "15 MAR 1926",
+      "birthPlace": null,
+      "deathDate": "16 JUN 2006",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500070",
+      "spouseInFamilies": [
+        "F500026"
+      ]
+    },
+    "I500065": {
+      "id": "I500065",
+      "givenName": "Annarita",
+      "surname": "Cossu",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1 DEC 1957",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500026",
+      "spouseInFamilies": [
+        "F500067"
+      ]
+    },
+    "I500066": {
+      "id": "I500066",
+      "givenName": "Alessandro",
+      "surname": "Mignini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1925",
+      "birthPlace": null,
+      "deathDate": "1999",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500027"
+      ]
+    },
+    "I500067": {
+      "id": "I500067",
+      "givenName": "Sara",
+      "surname": "Mignini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1971",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500027",
+      "spouseInFamilies": [
+        "F500081"
+      ]
+    },
+    "I500068": {
+      "id": "I500068",
+      "givenName": "Lorenzo",
+      "surname": "Agrippi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500028"
+      ]
+    },
+    "I500069": {
+      "id": "I500069",
+      "givenName": "Orlando",
+      "surname": "Agrippi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1949",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500028",
+      "spouseInFamilies": [
+        "F500061"
+      ]
+    },
+    "I500070": {
+      "id": "I500070",
+      "givenName": "Vittorio",
+      "surname": "Agrippi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1956",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500028",
+      "spouseInFamilies": [
+        "F500062"
+      ]
+    },
+    "I500071": {
+      "id": "I500071",
+      "givenName": "Roberto",
+      "surname": "Agrippi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1960",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500028",
+      "spouseInFamilies": [
+        "F500065"
+      ]
+    },
+    "I500072": {
+      "id": "I500072",
+      "givenName": "Adriana",
+      "surname": "Agrippi",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1952",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500028",
+      "spouseInFamilies": [
+        "F500084"
+      ]
+    },
+    "I500073": {
+      "id": "I500073",
+      "givenName": "Santi",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500020",
+      "spouseInFamilies": [
+        "F500029"
+      ]
+    },
+    "I500074": {
+      "id": "I500074",
+      "givenName": "Luigi",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500020",
+      "spouseInFamilies": [
+        "F500030"
+      ]
+    },
+    "I500075": {
+      "id": "I500075",
+      "givenName": "Lorenzo",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500020",
+      "spouseInFamilies": [
+        "F500031"
+      ]
+    },
+    "I500076": {
+      "id": "I500076",
+      "givenName": "Angiolina",
+      "surname": "Marconi",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500029"
+      ]
+    },
+    "I500077": {
+      "id": "I500077",
+      "givenName": "Letizia",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500029",
+      "spouseInFamilies": [
+        "F500051"
+      ]
+    },
+    "I500078": {
+      "id": "I500078",
+      "givenName": "Danilo",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500029",
+      "spouseInFamilies": [
+        "F500055"
+      ]
+    },
+    "I500079": {
+      "id": "I500079",
+      "givenName": "Giovanni",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500029",
+      "spouseInFamilies": [
+        "F500052"
+      ]
+    },
+    "I500080": {
+      "id": "I500080",
+      "givenName": "Domenico",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500029",
+      "spouseInFamilies": [
+        "F500056"
+      ]
+    },
+    "I500081": {
+      "id": "I500081",
+      "givenName": "Rita",
+      "surname": "Rosai",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500030"
+      ]
+    },
+    "I500082": {
+      "id": "I500082",
+      "givenName": "Luca",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500030",
+      "spouseInFamilies": [
+        "F500054"
+      ]
+    },
+    "I500083": {
+      "id": "I500083",
+      "givenName": "Massimo",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500030",
+      "spouseInFamilies": [
+        "F500034"
+      ]
+    },
+    "I500084": {
+      "id": "I500084",
+      "givenName": "Marco",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500030",
+      "spouseInFamilies": [
+        "F500032",
+        "F500033"
+      ]
+    },
+    "I500085": {
+      "id": "I500085",
+      "givenName": "Isolina",
+      "surname": "Cesaroni",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500031"
+      ]
+    },
+    "I500086": {
+      "id": "I500086",
+      "givenName": "Fabio Isaia",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1969",
+      "birthPlace": null,
+      "deathDate": "2006",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500031",
+      "spouseInFamilies": [
+        "F500060"
+      ]
+    },
+    "I500087": {
+      "id": "I500087",
+      "givenName": "Anna Maria",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500031",
+      "spouseInFamilies": [
+        "F500050"
+      ]
+    },
+    "I500088": {
+      "id": "I500088",
+      "givenName": "Maria Giovanna",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500031",
+      "spouseInFamilies": [
+        "F500057"
+      ]
+    },
+    "I500089": {
+      "id": "I500089",
+      "givenName": "Giusy Lorenzo",
+      "surname": "Zuccaro",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500032"
+      ]
+    },
+    "I500090": {
+      "id": "I500090",
+      "givenName": "Dana Cristina",
+      "surname": "Palade",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": "Romania",
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500033"
+      ]
+    },
+    "I500091": {
+      "id": "I500091",
+      "givenName": "Barbara",
+      "surname": "Bacci",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500034"
+      ]
+    },
+    "I500092": {
+      "id": "I500092",
+      "givenName": "Arianna",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500034",
+      "spouseInFamilies": []
+    },
+    "I500095": {
+      "id": "I500095",
+      "givenName": "Asia",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500034",
+      "spouseInFamilies": []
+    },
+    "I500096": {
+      "id": "I500096",
+      "givenName": "Francesco",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500034",
+      "spouseInFamilies": []
+    },
+    "I500097": {
+      "id": "I500097",
+      "givenName": "Fiamma",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500034",
+      "spouseInFamilies": []
+    },
+    "I500098": {
+      "id": "I500098",
+      "givenName": "Ilaria",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500032",
+      "spouseInFamilies": [
+        "F500082"
+      ]
+    },
+    "I500099": {
+      "id": "I500099",
+      "givenName": "Lorenzo",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500032",
+      "spouseInFamilies": []
+    },
+    "I500100": {
+      "id": "I500100",
+      "givenName": "Giuseppe",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1931",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500022",
+      "spouseInFamilies": [
+        "F500036"
+      ]
+    },
+    "I500101": {
+      "id": "I500101",
+      "givenName": "Immacolata Concetta",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "8 DEC 1934",
+      "birthPlace": "Reggio Calabria",
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500022",
+      "spouseInFamilies": [
+        "F500037"
+      ]
+    },
+    "I500102": {
+      "id": "I500102",
+      "givenName": "Francesco",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500022",
+      "spouseInFamilies": [
+        "F500038",
+        "F500039"
+      ]
+    },
+    "I500103": {
+      "id": "I500103",
+      "givenName": "Vittorio",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "4 NOV 1940",
+      "birthPlace": "Reggio Calabria",
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500022",
+      "spouseInFamilies": [
+        "F500040"
+      ]
+    },
+    "I500104": {
+      "id": "I500104",
+      "givenName": "Aurelio",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "8 JUL 1942",
+      "birthPlace": "Reggio Calabria",
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500022",
+      "spouseInFamilies": [
+        "F500041"
+      ]
+    },
+    "I500105": {
+      "id": "I500105",
+      "givenName": "Elena",
+      "surname": "Fusto",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": "Pianopoli",
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500036"
+      ]
+    },
+    "I500106": {
+      "id": "I500106",
+      "givenName": "Carmine",
+      "surname": "Conte",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500037"
+      ]
+    },
+    "I500107": {
+      "id": "I500107",
+      "givenName": "Giuseppe",
+      "surname": "Conte",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1957",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500037",
+      "spouseInFamilies": []
+    },
+    "I500108": {
+      "id": "I500108",
+      "givenName": "Addolorata",
+      "surname": "Conte",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500037",
+      "spouseInFamilies": []
+    },
+    "I500109": {
+      "id": "I500109",
+      "givenName": "Giovanni",
+      "surname": "Conte",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500037",
+      "spouseInFamilies": []
+    },
+    "I500110": {
+      "id": "I500110",
+      "givenName": "Marcello",
+      "surname": "Conte",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500037",
+      "spouseInFamilies": []
+    },
+    "I500111": {
+      "id": "I500111",
+      "givenName": "Giovanni",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1958",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500036",
+      "spouseInFamilies": []
+    },
+    "I500112": {
+      "id": "I500112",
+      "givenName": "Agostino",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1961",
+      "birthPlace": "Reggio Calabria",
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500036",
+      "spouseInFamilies": []
+    },
+    "I500113": {
+      "id": "I500113",
+      "givenName": "Aurelio",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1966",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500036",
+      "spouseInFamilies": [
+        "F500080"
+      ]
+    },
+    "I500114": {
+      "id": "I500114",
+      "givenName": "Vittoria",
+      "surname": "Curto",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500038"
+      ]
+    },
+    "I500115": {
+      "id": "I500115",
+      "givenName": "Gianfranco",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500038",
+      "spouseInFamilies": []
+    },
+    "I500116": {
+      "id": "I500116",
+      "givenName": "Matilde",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500038",
+      "spouseInFamilies": []
+    },
+    "I500117": {
+      "id": "I500117",
+      "givenName": "Alessandro",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500038",
+      "spouseInFamilies": []
+    },
+    "I500118": {
+      "id": "I500118",
+      "givenName": "Natalia",
+      "surname": "Cusina",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500039"
+      ]
+    },
+    "I500119": {
+      "id": "I500119",
+      "givenName": "Matilde",
+      "surname": "Cusina",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500039",
+      "spouseInFamilies": []
+    },
+    "I500120": {
+      "id": "I500120",
+      "givenName": "Vincenza",
+      "surname": "Cusina",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500039",
+      "spouseInFamilies": []
+    },
+    "I500121": {
+      "id": "I500121",
+      "givenName": "Rosalba",
+      "surname": "Palermo",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500040"
+      ]
+    },
+    "I500122": {
+      "id": "I500122",
+      "givenName": "Emanuela",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500040",
+      "spouseInFamilies": []
+    },
+    "I500123": {
+      "id": "I500123",
+      "givenName": "Francesca",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500040",
+      "spouseInFamilies": []
+    },
+    "I500124": {
+      "id": "I500124",
+      "givenName": "Ada",
+      "surname": "Mazza",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "20 APR 1948",
+      "birthPlace": "Sersale",
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500041"
+      ]
+    },
+    "I500125": {
+      "id": "I500125",
+      "givenName": "Danilo",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "12 SEP 1973",
+      "birthPlace": "Reggio Calabria",
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500041",
+      "spouseInFamilies": []
+    },
+    "I500126": {
+      "id": "I500126",
+      "givenName": "Mauro",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "16 JAN 1976",
+      "birthPlace": "Catanzaro",
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500041",
+      "spouseInFamilies": []
+    },
+    "I500127": {
+      "id": "I500127",
+      "givenName": "Luigi",
+      "surname": "Catalano",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": "1946",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500078",
+      "spouseInFamilies": [
+        "F500042"
+      ]
+    },
+    "I500128": {
+      "id": "I500128",
+      "givenName": "Vincenza",
+      "surname": "Orsini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500079",
+      "spouseInFamilies": [
+        "F500042"
+      ]
+    },
+    "I500130": {
+      "id": "I500130",
+      "givenName": "Elvira",
+      "surname": "Catalano",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500042",
+      "spouseInFamilies": []
+    },
+    "I500131": {
+      "id": "I500131",
+      "givenName": "Giuseppe",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1869",
+      "birthPlace": null,
+      "deathDate": "1961",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500076",
+      "spouseInFamilies": [
+        "F500043"
+      ]
+    },
+    "I500132": {
+      "id": "I500132",
+      "givenName": "Concetta",
+      "surname": "Attinà",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1886",
+      "birthPlace": "Reggio Calabria",
+      "deathDate": "1946",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500077",
+      "spouseInFamilies": [
+        "F500043"
+      ]
+    },
+    "I500135": {
+      "id": "I500135",
+      "givenName": "Francesca",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1891",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500043",
+      "spouseInFamilies": []
+    },
+    "I500136": {
+      "id": "I500136",
+      "givenName": "Maria",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1899",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500043",
+      "spouseInFamilies": []
+    },
+    "I500137": {
+      "id": "I500137",
+      "givenName": "Carmela",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1905",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500043",
+      "spouseInFamilies": []
+    },
+    "I500138": {
+      "id": "I500138",
+      "givenName": "Elena",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1907",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500043",
+      "spouseInFamilies": []
+    },
+    "I500139": {
+      "id": "I500139",
+      "givenName": "Bruno",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "30 DEC 1961",
+      "birthPlace": "Perugia",
+      "deathDate": "21 JAN 1963",
+      "deathPlace": "Ravenna",
+      "deathCause": null,
+      "childOfFamily": "F500002",
+      "spouseInFamilies": []
+    },
+    "I500140": {
+      "id": "I500140",
+      "givenName": "Matilde",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "30 DEC 1961",
+      "birthPlace": "Perugia",
+      "deathDate": null,
+      "deathPlace": "Perugia",
+      "deathCause": "Nato morto",
+      "childOfFamily": "F500002",
+      "spouseInFamilies": []
+    },
+    "I500141": {
+      "id": "I500141",
+      "givenName": "Clito",
+      "surname": "Dottori",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "20 SEP 1861",
+      "birthPlace": "Marsciano",
+      "deathDate": "15 AUG 1915",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500046",
+      "spouseInFamilies": [
+        "F500044"
+      ]
+    },
+    "I500142": {
+      "id": "I500142",
+      "givenName": "Vittoria",
+      "surname": "Delunghi",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500047",
+      "spouseInFamilies": [
+        "F500044"
+      ]
+    },
+    "I500143": {
+      "id": "I500143",
+      "givenName": "Filiberto",
+      "surname": "Maranghi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "22 DEC 1864",
+      "birthPlace": null,
+      "deathDate": "3 JAN 1930",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500048",
+      "spouseInFamilies": [
+        "F500045"
+      ]
+    },
+    "I500144": {
+      "id": "I500144",
+      "givenName": "Pasqua",
+      "surname": "Giommi",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "15 DEC 1865",
+      "birthPlace": null,
+      "deathDate": "17 AUG 1934",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500049",
+      "spouseInFamilies": [
+        "F500045"
+      ]
+    },
+    "I500145": {
+      "id": "I500145",
+      "givenName": "Vincenzo",
+      "surname": "Dottori",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500046"
+      ]
+    },
+    "I500146": {
+      "id": "I500146",
+      "givenName": "Letizia",
+      "surname": "Bertolini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500046"
+      ]
+    },
+    "I500147": {
+      "id": "I500147",
+      "givenName": "Abele",
+      "surname": "Delunghi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "18 SEP 1860",
+      "birthPlace": "Perugia",
+      "deathDate": "17 JAN 1922",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500047"
+      ]
+    },
+    "I500148": {
+      "id": "I500148",
+      "givenName": "Isabella",
+      "surname": "Barbadoro",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500047"
+      ]
+    },
+    "I500149": {
+      "id": "I500149",
+      "givenName": "Renato",
+      "surname": "Dottori",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "5 JAN 1890",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500044",
+      "spouseInFamilies": []
+    },
+    "I500150": {
+      "id": "I500150",
+      "givenName": "Laura",
+      "surname": "Dottori",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "22 JUL 1891",
+      "birthPlace": "Perugia",
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500044",
+      "spouseInFamilies": []
+    },
+    "I500151": {
+      "id": "I500151",
+      "givenName": "Bianca",
+      "surname": "Dottori",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "29 APR 1896",
+      "birthPlace": null,
+      "deathDate": "19 MAY 1896",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500044",
+      "spouseInFamilies": []
+    },
+    "I500152": {
+      "id": "I500152",
+      "givenName": "Alberto",
+      "surname": "Dottori",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "5 JUL 1897",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500044",
+      "spouseInFamilies": []
+    },
+    "I500153": {
+      "id": "I500153",
+      "givenName": "Galliano",
+      "surname": "Dottori",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "9 SEP 1900",
+      "birthPlace": null,
+      "deathDate": "25 DEC 1900",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500044",
+      "spouseInFamilies": []
+    },
+    "I500154": {
+      "id": "I500154",
+      "givenName": "Maria",
+      "surname": "Dottori",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "23 MAY 1902",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500044",
+      "spouseInFamilies": []
+    },
+    "I500155": {
+      "id": "I500155",
+      "givenName": "Alessandro",
+      "surname": "Maranghi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500048"
+      ]
+    },
+    "I500156": {
+      "id": "I500156",
+      "givenName": "Ester",
+      "surname": "Brunelli",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500048"
+      ]
+    },
+    "I500157": {
+      "id": "I500157",
+      "givenName": "Pasquale",
+      "surname": "Giommi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500049"
+      ]
+    },
+    "I500158": {
+      "id": "I500158",
+      "givenName": "Luisa",
+      "surname": "Teodosi",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500049"
+      ]
+    },
+    "I500159": {
+      "id": "I500159",
+      "givenName": "Aldina",
+      "surname": "Maranghi",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": "26 DEC 1891",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500045",
+      "spouseInFamilies": []
+    },
+    "I500160": {
+      "id": "I500160",
+      "givenName": "Plinio",
+      "surname": "Maranghi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "17 DEC 1894",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500045",
+      "spouseInFamilies": []
+    },
+    "I500161": {
+      "id": "I500161",
+      "givenName": "Antonio",
+      "surname": "Maranghi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "7 MAY 1898",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500045",
+      "spouseInFamilies": []
+    },
+    "I500162": {
+      "id": "I500162",
+      "givenName": "Ester",
+      "surname": "Maranghi",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "13 JUN 1903",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500045",
+      "spouseInFamilies": []
+    },
+    "I500163": {
+      "id": "I500163",
+      "givenName": "Dario",
+      "surname": "Arezzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500050"
+      ]
+    },
+    "I500164": {
+      "id": "I500164",
+      "givenName": "Riccardo",
+      "surname": "Andreini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500051"
+      ]
+    },
+    "I500165": {
+      "id": "I500165",
+      "givenName": "Stefania",
+      "surname": "Versari",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500052"
+      ]
+    },
+    "I500168": {
+      "id": "I500168",
+      "givenName": "Leonardo",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500052",
+      "spouseInFamilies": []
+    },
+    "I500169": {
+      "id": "I500169",
+      "givenName": "Caterina",
+      "surname": "Galeota",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500054"
+      ]
+    },
+    "I500170": {
+      "id": "I500170",
+      "givenName": "Serena",
+      "surname": "Caneschi",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500055"
+      ]
+    },
+    "I500171": {
+      "id": "I500171",
+      "givenName": "Filippo",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500055",
+      "spouseInFamilies": []
+    },
+    "I500172": {
+      "id": "I500172",
+      "givenName": "Patrizia",
+      "surname": "Cetica",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500056"
+      ]
+    },
+    "I500173": {
+      "id": "I500173",
+      "givenName": "Sara",
+      "surname": "Arezzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500050",
+      "spouseInFamilies": []
+    },
+    "I500174": {
+      "id": "I500174",
+      "givenName": "Alessia",
+      "surname": "Arezzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500050",
+      "spouseInFamilies": []
+    },
+    "I500175": {
+      "id": "I500175",
+      "givenName": "Elisa",
+      "surname": "Arezzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500050",
+      "spouseInFamilies": []
+    },
+    "I500176": {
+      "id": "I500176",
+      "givenName": "Walter",
+      "surname": "Grassi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500057"
+      ]
+    },
+    "I500177": {
+      "id": "I500177",
+      "givenName": "Andrea",
+      "surname": "Grassi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500057",
+      "spouseInFamilies": []
+    },
+    "I500178": {
+      "id": "I500178",
+      "givenName": "Chiara",
+      "surname": "Grassi",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500057",
+      "spouseInFamilies": []
+    },
+    "I500179": {
+      "id": "I500179",
+      "givenName": "Domenica",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500058",
+      "spouseInFamilies": [
+        "F500083"
+      ]
+    },
+    "I500181": {
+      "id": "I500181",
+      "givenName": "",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500058"
+      ]
+    },
+    "I500182": {
+      "id": "I500182",
+      "givenName": "Gina",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500058",
+      "spouseInFamilies": [
+        "F500059"
+      ]
+    },
+    "I500183": {
+      "id": "I500183",
+      "givenName": "Bruna",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500058",
+      "spouseInFamilies": []
+    },
+    "I500184": {
+      "id": "I500184",
+      "givenName": "Giovanni",
+      "surname": "Cappetti",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500059"
+      ]
+    },
+    "I500185": {
+      "id": "I500185",
+      "givenName": "Guido",
+      "surname": "Cappetti",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500059",
+      "spouseInFamilies": []
+    },
+    "I500186": {
+      "id": "I500186",
+      "givenName": "Niccolò",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500056",
+      "spouseInFamilies": []
+    },
+    "I500187": {
+      "id": "I500187",
+      "givenName": "Matteo",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500060",
+      "spouseInFamilies": []
+    },
+    "I500188": {
+      "id": "I500188",
+      "givenName": "Manuela",
+      "surname": "Cappetti",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500060"
+      ]
+    },
+    "I500189": {
+      "id": "I500189",
+      "givenName": "Gloria",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500060",
+      "spouseInFamilies": []
+    },
+    "I500190": {
+      "id": "I500190",
+      "givenName": "Lucia",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500060",
+      "spouseInFamilies": []
+    },
+    "I500191": {
+      "id": "I500191",
+      "givenName": "Vincenza",
+      "surname": "",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500061"
+      ]
+    },
+    "I500192": {
+      "id": "I500192",
+      "givenName": "Mirko",
+      "surname": "Agrippi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500061",
+      "spouseInFamilies": []
+    },
+    "I500193": {
+      "id": "I500193",
+      "givenName": "Marco",
+      "surname": "Agrippi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500061",
+      "spouseInFamilies": []
+    },
+    "I500194": {
+      "id": "I500194",
+      "givenName": "Manuela",
+      "surname": "Sadari",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500062"
+      ]
+    },
+    "I500199": {
+      "id": "I500199",
+      "givenName": "Serena",
+      "surname": "Agrippi",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500062",
+      "spouseInFamilies": []
+    },
+    "I500200": {
+      "id": "I500200",
+      "givenName": "Andrea",
+      "surname": "Agrippi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500062",
+      "spouseInFamilies": []
+    },
+    "I500201": {
+      "id": "I500201",
+      "givenName": "Silvia",
+      "surname": "Senesi",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500065"
+      ]
+    },
+    "I500202": {
+      "id": "I500202",
+      "givenName": "Valerio",
+      "surname": "Agrippi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500065",
+      "spouseInFamilies": []
+    },
+    "I500203": {
+      "id": "I500203",
+      "givenName": "Sara",
+      "surname": "Agrippi",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500065",
+      "spouseInFamilies": []
+    },
+    "I500204": {
+      "id": "I500204",
+      "givenName": "Enrico",
+      "surname": "Avanzati",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500066"
+      ]
+    },
+    "I500205": {
+      "id": "I500205",
+      "givenName": "Maurizio",
+      "surname": "Alunno Milani",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "05/07/1955",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500067"
+      ]
+    },
+    "I500206": {
+      "id": "I500206",
+      "givenName": "Lucia",
+      "surname": "Alunno Milani",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "5 MAY 1983",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500067",
+      "spouseInFamilies": [
+        "F500068"
+      ]
+    },
+    "I500207": {
+      "id": "I500207",
+      "givenName": "Laura",
+      "surname": "Alunno Milani",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "5 FEB 1989",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500067",
+      "spouseInFamilies": [
+        "F500069"
+      ]
+    },
+    "I500208": {
+      "id": "I500208",
+      "givenName": "Leonardo",
+      "surname": "Sordini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "6 DEC 1980",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500068"
+      ]
+    },
+    "I500209": {
+      "id": "I500209",
+      "givenName": "Samuele",
+      "surname": "Sordini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "14 FEB 2013",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500068",
+      "spouseInFamilies": []
+    },
+    "I500210": {
+      "id": "I500210",
+      "givenName": "Michele",
+      "surname": "Sordini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "21 SEP 2017",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500068",
+      "spouseInFamilies": []
+    },
+    "I500211": {
+      "id": "I500211",
+      "givenName": "Lorenzo",
+      "surname": "Sordini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "3 JAN 1986",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500069"
+      ]
+    },
+    "I500212": {
+      "id": "I500212",
+      "givenName": "Emanuele",
+      "surname": "Sordini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "11 JUL 2017",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500069",
+      "spouseInFamilies": []
+    },
+    "I500213": {
+      "id": "I500213",
+      "givenName": "Titina",
+      "surname": "Cossu",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500070",
+      "spouseInFamilies": []
+    },
+    "I500214": {
+      "id": "I500214",
+      "givenName": "Antonio",
+      "surname": "Cossu",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "4 JAN 1896",
+      "birthPlace": null,
+      "deathDate": "16 NOV 1970",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500070"
+      ]
+    },
+    "I500215": {
+      "id": "I500215",
+      "givenName": "Tomasina",
+      "surname": "Manconi",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "26 SEP 1900",
+      "birthPlace": null,
+      "deathDate": "24 MAR 1993",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500070"
+      ]
+    },
+    "I500216": {
+      "id": "I500216",
+      "givenName": "Domenico",
+      "surname": "Cossu",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500070",
+      "spouseInFamilies": []
+    },
+    "I500217": {
+      "id": "I500217",
+      "givenName": "Tonina",
+      "surname": "Cossu",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500070",
+      "spouseInFamilies": []
+    },
+    "I500218": {
+      "id": "I500218",
+      "givenName": "Dora",
+      "surname": "Cossu",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500070",
+      "spouseInFamilies": []
+    },
+    "I500219": {
+      "id": "I500219",
+      "givenName": "Sandro",
+      "surname": "Cossu",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500070",
+      "spouseInFamilies": []
+    },
+    "I500220": {
+      "id": "I500220",
+      "givenName": "Severino",
+      "surname": "Cossu",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500070",
+      "spouseInFamilies": []
+    },
+    "I500221": {
+      "id": "I500221",
+      "givenName": "Marco",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500071"
+      ]
+    },
+    "I500222": {
+      "id": "I500222",
+      "givenName": "Simone",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500072"
+      ]
+    },
+    "I500223": {
+      "id": "I500223",
+      "givenName": "Jordan",
+      "surname": "Ghezzi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500073"
+      ]
+    },
+    "I500224": {
+      "id": "I500224",
+      "givenName": "Elettra",
+      "surname": "Ghezzi",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500073",
+      "spouseInFamilies": []
+    },
+    "I500225": {
+      "id": "I500225",
+      "givenName": "Giulia",
+      "surname": "Mori",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500074"
+      ]
+    },
+    "I500226": {
+      "id": "I500226",
+      "givenName": "Costanza",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500074",
+      "spouseInFamilies": []
+    },
+    "I500227": {
+      "id": "I500227",
+      "givenName": "Tim",
+      "surname": "Capuchini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500075"
+      ]
+    },
+    "I500228": {
+      "id": "I500228",
+      "givenName": "Giovanni",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500076"
+      ]
+    },
+    "I500229": {
+      "id": "I500229",
+      "givenName": "Maria",
+      "surname": "Giordano",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500076"
+      ]
+    },
+    "I500230": {
+      "id": "I500230",
+      "givenName": "Pietro",
+      "surname": "Attinà",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500077"
+      ]
+    },
+    "I500231": {
+      "id": "I500231",
+      "givenName": "Francesca",
+      "surname": "Aricò",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500077"
+      ]
+    },
+    "I500232": {
+      "id": "I500232",
+      "givenName": "Gaetano",
+      "surname": "Catalano",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500078"
+      ]
+    },
+    "I500233": {
+      "id": "I500233",
+      "givenName": "Sebastiano",
+      "surname": "Orsini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500079"
+      ]
+    },
+    "I500234": {
+      "id": "I500234",
+      "givenName": "Caterina",
+      "surname": "Girifalco",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500079"
+      ]
+    },
+    "I500236": {
+      "id": "I500236",
+      "givenName": "Adele",
+      "surname": "Catalano",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1910",
+      "birthPlace": "Lipari",
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500042",
+      "spouseInFamilies": []
+    },
+    "I500237": {
+      "id": "I500237",
+      "givenName": "Rodolfo",
+      "surname": "Catalano",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1915",
+      "birthPlace": "Afragola",
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500042",
+      "spouseInFamilies": []
+    },
+    "I500238": {
+      "id": "I500238",
+      "givenName": "Aurelio",
+      "surname": "Catalano",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": "1941",
+      "deathPlace": "Incrociatore Fiume",
+      "deathCause": "In guerra",
+      "childOfFamily": "F500042",
+      "spouseInFamilies": []
+    },
+    "I500239": {
+      "id": "I500239",
+      "givenName": "Elena",
+      "surname": "Panagia",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500080",
+      "spouseInFamilies": []
+    },
+    "I500240": {
+      "id": "I500240",
+      "givenName": "",
+      "surname": "",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500080"
+      ]
+    },
+    "I500241": {
+      "id": "I500241",
+      "givenName": "Riccardo",
+      "surname": "Perego",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "17 JAN 1953",
+      "birthPlace": null,
+      "deathDate": "21 MAR 2011",
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500081"
+      ]
+    },
+    "I500242": {
+      "id": "I500242",
+      "givenName": "Susanna",
+      "surname": "Perego",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "30 JAN 2001",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500081",
+      "spouseInFamilies": []
+    },
+    "I500243": {
+      "id": "I500243",
+      "givenName": "Federico",
+      "surname": "Perego",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "18 JAN 2006",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500081",
+      "spouseInFamilies": []
+    },
+    "I500244": {
+      "id": "I500244",
+      "givenName": "Lisa",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500033",
+      "spouseInFamilies": []
+    },
+    "I500245": {
+      "id": "I500245",
+      "givenName": "Cristian",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500033",
+      "spouseInFamilies": []
+    },
+    "I500246": {
+      "id": "I500246",
+      "givenName": "Giulio",
+      "surname": "Faralli",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500082"
+      ]
+    },
+    "I500247": {
+      "id": "I500247",
+      "givenName": "Matilda",
+      "surname": "Faralli",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500082",
+      "spouseInFamilies": []
+    },
+    "I500248": {
+      "id": "I500248",
+      "givenName": "Gabriele",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500054",
+      "spouseInFamilies": []
+    },
+    "I500249": {
+      "id": "I500249",
+      "givenName": "Valentina",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500054",
+      "spouseInFamilies": []
+    },
+    "I500250": {
+      "id": "I500250",
+      "givenName": "Giuseppe",
+      "surname": "Marchetti",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500083"
+      ]
+    },
+    "I500251": {
+      "id": "I500251",
+      "givenName": "Franco",
+      "surname": "Marchetti",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500083",
+      "spouseInFamilies": []
+    },
+    "I500252": {
+      "id": "I500252",
+      "givenName": "Franca",
+      "surname": "Marchetti",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500083",
+      "spouseInFamilies": []
+    },
+    "I500253": {
+      "id": "I500253",
+      "givenName": "Domenico",
+      "surname": "Martini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500072",
+      "spouseInFamilies": []
+    },
+    "I500254": {
+      "id": "I500254",
+      "givenName": "Roberto",
+      "surname": "Mugnai",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500084"
+      ]
+    },
+    "I500255": {
+      "id": "I500255",
+      "givenName": "Gianluca",
+      "surname": "Mugnai",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500084",
+      "spouseInFamilies": []
+    },
+    "I500256": {
+      "id": "I500256",
+      "givenName": "Daniele",
+      "surname": "Mugnai",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500084",
+      "spouseInFamilies": []
+    },
+    "I500260": {
+      "id": "I500260",
+      "givenName": "Ilaria",
+      "surname": "Avanzati",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500066",
+      "spouseInFamilies": []
+    },
+    "I500261": {
+      "id": "I500261",
+      "givenName": "Denise",
+      "surname": "Avanzati",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500066",
+      "spouseInFamilies": []
+    },
+    "I500262": {
+      "id": "I500262",
+      "givenName": "Sergio",
+      "surname": "Secco",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500086"
+      ]
+    },
+    "I500263": {
+      "id": "I500263",
+      "givenName": "Oreste",
+      "surname": "Nanni",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500087"
+      ]
+    },
+    "I500264": {
+      "id": "I500264",
+      "givenName": "Debora",
+      "surname": "Nanni",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500087",
+      "spouseInFamilies": []
+    },
+    "I500265": {
+      "id": "I500265",
+      "givenName": "Davide",
+      "surname": "Avanzati",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500066",
+      "spouseInFamilies": []
+    },
+    "I500266": {
+      "id": "I500266",
+      "givenName": "Daniele",
+      "surname": "Secco",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500086",
+      "spouseInFamilies": []
+    },
+    "I500267": {
+      "id": "I500267",
+      "givenName": "Alessandra",
+      "surname": "Nanni",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": "F500087",
+      "spouseInFamilies": []
+    },
+    "I500268": {
+      "id": "I500268",
+      "givenName": "",
+      "surname": "Palazzini",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": null,
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500058"
+      ]
+    },
+    "I500269": {
+      "id": "I500269",
+      "givenName": "Bruna",
+      "surname": "Dioni",
+      "marriedName": null,
+      "sex": "F",
+      "birthDate": "1940",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500088"
+      ]
+    },
+    "I500270": {
+      "id": "I500270",
+      "givenName": "Domenico",
+      "surname": "Scatizzi",
+      "marriedName": null,
+      "sex": "M",
+      "birthDate": "1935",
+      "birthPlace": null,
+      "deathDate": null,
+      "deathPlace": null,
+      "deathCause": null,
+      "childOfFamily": null,
+      "spouseInFamilies": [
+        "F500088"
+      ]
+    }
+  },
+  "families": {
+    "F500001": {
+      "id": "F500001",
+      "husbandId": "I500003",
+      "wifeId": "I500002",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500001",
+        "I500008"
+      ]
+    },
+    "F500002": {
+      "id": "F500002",
+      "husbandId": "I500005",
+      "wifeId": "I500004",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500010",
+        "I500139",
+        "I500140",
+        "I500002",
+        "I500009"
+      ]
+    },
+    "F500003": {
+      "id": "F500003",
+      "husbandId": "I500007",
+      "wifeId": "I500006",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500003",
+        "I500011",
+        "I500012",
+        "I500013"
+      ]
+    },
+    "F500005": {
+      "id": "F500005",
+      "husbandId": "I500014",
+      "wifeId": "I500015",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500017",
+        "I500007",
+        "I500018"
+      ]
+    },
+    "F500007": {
+      "id": "F500007",
+      "husbandId": "I500011",
+      "wifeId": "I500020",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500019",
+        "I500021"
+      ]
+    },
+    "F500008": {
+      "id": "F500008",
+      "husbandId": "I500012",
+      "wifeId": "I500023",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500022",
+        "I500024",
+        "I500025"
+      ]
+    },
+    "F500009": {
+      "id": "F500009",
+      "husbandId": "I500009",
+      "wifeId": "I500026",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500035"
+      ]
+    },
+    "F500011": {
+      "id": "F500011",
+      "husbandId": "I500010",
+      "wifeId": "I500029",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500032",
+        "I500033",
+        "I500034"
+      ]
+    },
+    "F500013": {
+      "id": "F500013",
+      "husbandId": "I500036",
+      "wifeId": null,
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500014"
+      ]
+    },
+    "F500014": {
+      "id": "F500014",
+      "husbandId": "I500038",
+      "wifeId": "I500018",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500037",
+        "I500043",
+        "I500044"
+      ]
+    },
+    "F500020": {
+      "id": "F500020",
+      "husbandId": "I500016",
+      "wifeId": "I500054",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500006",
+        "I500073",
+        "I500074",
+        "I500075"
+      ]
+    },
+    "F500022": {
+      "id": "F500022",
+      "husbandId": "I500055",
+      "wifeId": "I500056",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500100",
+        "I500005",
+        "I500101",
+        "I500103",
+        "I500104",
+        "I500102"
+      ]
+    },
+    "F500023": {
+      "id": "F500023",
+      "husbandId": "I500045",
+      "wifeId": null,
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": []
+    },
+    "F500024": {
+      "id": "F500024",
+      "husbandId": "I500045",
+      "wifeId": "I500058",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500061",
+        "I500004",
+        "I500062",
+        "I500060",
+        "I500063"
+      ]
+    },
+    "F500026": {
+      "id": "F500026",
+      "husbandId": "I500061",
+      "wifeId": "I500064",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500065"
+      ]
+    },
+    "F500027": {
+      "id": "F500027",
+      "husbandId": "I500063",
+      "wifeId": "I500066",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500067"
+      ]
+    },
+    "F500028": {
+      "id": "F500028",
+      "husbandId": "I500017",
+      "wifeId": "I500068",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500069",
+        "I500072",
+        "I500070",
+        "I500071"
+      ]
+    },
+    "F500029": {
+      "id": "F500029",
+      "husbandId": "I500073",
+      "wifeId": "I500076",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500077",
+        "I500078",
+        "I500079",
+        "I500080"
+      ]
+    },
+    "F500030": {
+      "id": "F500030",
+      "husbandId": "I500074",
+      "wifeId": "I500081",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500082",
+        "I500083",
+        "I500084"
+      ]
+    },
+    "F500031": {
+      "id": "F500031",
+      "husbandId": "I500075",
+      "wifeId": "I500085",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500086",
+        "I500087",
+        "I500088"
+      ]
+    },
+    "F500032": {
+      "id": "F500032",
+      "husbandId": "I500084",
+      "wifeId": "I500089",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": true,
+      "childrenIds": [
+        "I500098",
+        "I500099"
+      ]
+    },
+    "F500033": {
+      "id": "F500033",
+      "husbandId": "I500084",
+      "wifeId": "I500090",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500244",
+        "I500245"
+      ]
+    },
+    "F500034": {
+      "id": "F500034",
+      "husbandId": "I500083",
+      "wifeId": "I500091",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500092",
+        "I500095",
+        "I500096",
+        "I500097"
+      ]
+    },
+    "F500036": {
+      "id": "F500036",
+      "husbandId": "I500100",
+      "wifeId": "I500105",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500111",
+        "I500112",
+        "I500113"
+      ]
+    },
+    "F500037": {
+      "id": "F500037",
+      "husbandId": "I500106",
+      "wifeId": "I500101",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500107",
+        "I500108",
+        "I500109",
+        "I500110"
+      ]
+    },
+    "F500038": {
+      "id": "F500038",
+      "husbandId": "I500102",
+      "wifeId": "I500114",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500115",
+        "I500116",
+        "I500117"
+      ]
+    },
+    "F500039": {
+      "id": "F500039",
+      "husbandId": "I500102",
+      "wifeId": "I500118",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500119",
+        "I500120"
+      ]
+    },
+    "F500040": {
+      "id": "F500040",
+      "husbandId": "I500103",
+      "wifeId": "I500121",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500122",
+        "I500123"
+      ]
+    },
+    "F500041": {
+      "id": "F500041",
+      "husbandId": "I500104",
+      "wifeId": "I500124",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500125",
+        "I500126"
+      ]
+    },
+    "F500042": {
+      "id": "F500042",
+      "husbandId": "I500127",
+      "wifeId": "I500128",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500056",
+        "I500236",
+        "I500237",
+        "I500130",
+        "I500238"
+      ]
+    },
+    "F500043": {
+      "id": "F500043",
+      "husbandId": "I500131",
+      "wifeId": "I500132",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500135",
+        "I500055",
+        "I500136",
+        "I500137",
+        "I500138"
+      ]
+    },
+    "F500044": {
+      "id": "F500044",
+      "husbandId": "I500141",
+      "wifeId": "I500142",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500149",
+        "I500150",
+        "I500045",
+        "I500151",
+        "I500152",
+        "I500153",
+        "I500154"
+      ]
+    },
+    "F500045": {
+      "id": "F500045",
+      "husbandId": "I500143",
+      "wifeId": "I500144",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500160",
+        "I500161",
+        "I500058",
+        "I500162",
+        "I500159"
+      ]
+    },
+    "F500046": {
+      "id": "F500046",
+      "husbandId": "I500145",
+      "wifeId": "I500146",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500141"
+      ]
+    },
+    "F500047": {
+      "id": "F500047",
+      "husbandId": "I500147",
+      "wifeId": "I500148",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500142"
+      ]
+    },
+    "F500048": {
+      "id": "F500048",
+      "husbandId": "I500155",
+      "wifeId": "I500156",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500143"
+      ]
+    },
+    "F500049": {
+      "id": "F500049",
+      "husbandId": "I500157",
+      "wifeId": "I500158",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500144"
+      ]
+    },
+    "F500050": {
+      "id": "F500050",
+      "husbandId": "I500087",
+      "wifeId": "I500163",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500173",
+        "I500174",
+        "I500175"
+      ]
+    },
+    "F500051": {
+      "id": "F500051",
+      "husbandId": "I500077",
+      "wifeId": "I500164",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": []
+    },
+    "F500052": {
+      "id": "F500052",
+      "husbandId": "I500079",
+      "wifeId": "I500165",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500168"
+      ]
+    },
+    "F500054": {
+      "id": "F500054",
+      "husbandId": "I500082",
+      "wifeId": "I500169",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500248",
+        "I500249"
+      ]
+    },
+    "F500055": {
+      "id": "F500055",
+      "husbandId": "I500078",
+      "wifeId": "I500170",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500171"
+      ]
+    },
+    "F500056": {
+      "id": "F500056",
+      "husbandId": "I500080",
+      "wifeId": "I500172",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500186"
+      ]
+    },
+    "F500057": {
+      "id": "F500057",
+      "husbandId": "I500088",
+      "wifeId": "I500176",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500177",
+        "I500178"
+      ]
+    },
+    "F500058": {
+      "id": "F500058",
+      "husbandId": "I500268",
+      "wifeId": "I500181",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500016",
+        "I500179",
+        "I500182",
+        "I500183"
+      ]
+    },
+    "F500059": {
+      "id": "F500059",
+      "husbandId": "I500182",
+      "wifeId": "I500184",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500185"
+      ]
+    },
+    "F500060": {
+      "id": "F500060",
+      "husbandId": "I500086",
+      "wifeId": "I500188",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500187",
+        "I500189",
+        "I500190"
+      ]
+    },
+    "F500061": {
+      "id": "F500061",
+      "husbandId": "I500069",
+      "wifeId": "I500191",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500192",
+        "I500193"
+      ]
+    },
+    "F500062": {
+      "id": "F500062",
+      "husbandId": "I500070",
+      "wifeId": "I500194",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500199",
+        "I500200"
+      ]
+    },
+    "F500065": {
+      "id": "F500065",
+      "husbandId": "I500071",
+      "wifeId": "I500201",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500202",
+        "I500203"
+      ]
+    },
+    "F500066": {
+      "id": "F500066",
+      "husbandId": "I500037",
+      "wifeId": "I500204",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500260",
+        "I500261",
+        "I500265"
+      ]
+    },
+    "F500067": {
+      "id": "F500067",
+      "husbandId": "I500065",
+      "wifeId": "I500205",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500206",
+        "I500207"
+      ]
+    },
+    "F500068": {
+      "id": "F500068",
+      "husbandId": "I500206",
+      "wifeId": "I500208",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500209",
+        "I500210"
+      ]
+    },
+    "F500069": {
+      "id": "F500069",
+      "husbandId": "I500207",
+      "wifeId": "I500211",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500212"
+      ]
+    },
+    "F500070": {
+      "id": "F500070",
+      "husbandId": "I500214",
+      "wifeId": "I500215",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500064",
+        "I500213",
+        "I500216",
+        "I500217",
+        "I500218",
+        "I500219",
+        "I500220"
+      ]
+    },
+    "F500071": {
+      "id": "F500071",
+      "husbandId": "I500221",
+      "wifeId": null,
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500036"
+      ]
+    },
+    "F500072": {
+      "id": "F500072",
+      "husbandId": "I500222",
+      "wifeId": null,
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500015",
+        "I500253"
+      ]
+    },
+    "F500073": {
+      "id": "F500073",
+      "husbandId": "I500022",
+      "wifeId": "I500223",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500224"
+      ]
+    },
+    "F500074": {
+      "id": "F500074",
+      "husbandId": "I500033",
+      "wifeId": "I500225",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500226"
+      ]
+    },
+    "F500075": {
+      "id": "F500075",
+      "husbandId": "I500032",
+      "wifeId": "I500227",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": []
+    },
+    "F500076": {
+      "id": "F500076",
+      "husbandId": "I500228",
+      "wifeId": "I500229",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500131"
+      ]
+    },
+    "F500077": {
+      "id": "F500077",
+      "husbandId": "I500230",
+      "wifeId": "I500231",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500132"
+      ]
+    },
+    "F500078": {
+      "id": "F500078",
+      "husbandId": "I500232",
+      "wifeId": null,
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500127"
+      ]
+    },
+    "F500079": {
+      "id": "F500079",
+      "husbandId": "I500233",
+      "wifeId": "I500234",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500128"
+      ]
+    },
+    "F500080": {
+      "id": "F500080",
+      "husbandId": "I500113",
+      "wifeId": "I500240",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500239"
+      ]
+    },
+    "F500081": {
+      "id": "F500081",
+      "husbandId": "I500241",
+      "wifeId": "I500067",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500242",
+        "I500243"
+      ]
+    },
+    "F500082": {
+      "id": "F500082",
+      "husbandId": "I500246",
+      "wifeId": "I500098",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500247"
+      ]
+    },
+    "F500083": {
+      "id": "F500083",
+      "husbandId": "I500250",
+      "wifeId": "I500179",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500251",
+        "I500252"
+      ]
+    },
+    "F500084": {
+      "id": "F500084",
+      "husbandId": "I500254",
+      "wifeId": "I500072",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500255",
+        "I500256"
+      ]
+    },
+    "F500086": {
+      "id": "F500086",
+      "husbandId": "I500262",
+      "wifeId": "I500043",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500266"
+      ]
+    },
+    "F500087": {
+      "id": "F500087",
+      "husbandId": "I500263",
+      "wifeId": "I500044",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500264",
+        "I500267"
+      ]
+    },
+    "F500088": {
+      "id": "F500088",
+      "husbandId": "I500270",
+      "wifeId": "I500269",
+      "marriageDate": null,
+      "marriagePlace": null,
+      "divorced": false,
+      "childrenIds": [
+        "I500020"
+      ]
+    }
+  }
+}
