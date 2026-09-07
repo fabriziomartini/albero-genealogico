@@ -100,7 +100,10 @@ async function main() {
   setupSearch(raw.individuals, (id) => recenterOn(id))
 
   document.getElementById('fit-btn').addEventListener('click', () => {
+    chart.updateMainId(initialId)
     chart.updateTree({ initial: false, tree_position: 'fit' })
+    showDetail(raw, initialId, (targetId) => recenterOn(targetId))
+    setPersonInUrl(initialId, { replace: false })
     dismissHint()
   })
 

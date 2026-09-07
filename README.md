@@ -12,6 +12,14 @@ dal file JSON incluso nel sito. Costruito con [Vite](https://vitejs.dev) e
 - Pannello laterale (bottom sheet su smartphone) con nascita, morte, luoghi, coniugi e figli
 - Link diretto e condivisibile a una persona tramite `?person=ID` nell'URL
 - Gestisce famiglie multiple, figli senza data di nascita e campi mancanti senza errori
+- Pulsante "⌂" per tornare in un click alla vista completa dell'albero
+- **Libro di famiglia stampabile** (`public/libro-famiglia.html`, link "📖 Libro" in
+  alto): registro genealogico classico generato automaticamente dai dati, con
+  copertina, indice per cognome e persone numerate per generazione con rimandi
+  incrociati (genitori/coniugi/figli). Apribile da browser e stampabile o
+  esportabile in PDF con il pulsante "Stampa / Salva PDF" — pensato come regalo
+  cartaceo per i parenti. Si aggiorna da solo seguendo i dati in
+  `family_tree_data.json`, nessuna manutenzione separata richiesta.
 
 ## Sviluppo locale
 
@@ -76,6 +84,19 @@ Il sito è pubblico (necessario per GitHub Pages gratuito). Per questo motivo
 al sito li vedrebbe, indicizzati anche dai motori di ricerca, e resterebbero
 comunque nella cronologia Git anche se rimossi in un secondo momento. Quando
 rigeneri il file da un nuovo export, rimuovi questi campi prima di committare.
+
+## Aggiungere una persona o correggere un dato
+
+Il modo più semplice: chiedilo a Claude (Claude Code) in una sessione su questo
+repository, in linguaggio naturale — ad esempio "aggiungi Anna, sorella di
+Mario, nata nel 1960" oppure "correggi la data di morte di Giuseppe Panagia in
+1962". Claude modifica `family_tree_data.json` direttamente, verifica che i
+collegamenti tra genitori/figli restino coerenti, e fa commit e push. Il sito
+e il libro di famiglia si aggiornano da soli al deploy successivo.
+
+Niente moduli o strumenti da mantenere: per un albero che cresce per scoperte
+occasionali (non per inserimento dati continuo), è il metodo più robusto e non
+richiede gestire token o credenziali.
 
 ## Aggiornare l'albero da un nuovo export GEDCOM
 

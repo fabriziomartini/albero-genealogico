@@ -58,6 +58,24 @@ body {
   color: var(--ink);
 }
 
+.header-link {
+  flex-shrink: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink);
+  text-decoration: none;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.header-link:hover {
+  background: var(--bg);
+  border-color: var(--accent);
+}
+
 #search-box {
   position: relative;
   flex: 1;

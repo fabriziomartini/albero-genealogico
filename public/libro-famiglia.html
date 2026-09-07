@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Libro di famiglia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --paper: #fdfcfa;
+        --surface: #ffffff;
+        --ink: #1a1a1a;
+        --muted: #55504a;
+        --rule: #b8b0a4;
+        --hair: #d8d2c6;
+        --accent: #6b3338;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: 'EB Garamond', Georgia, serif;
+        font-size: 17px;
+        line-height: 1.55;
+      }
+      .page {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 2.5rem 1.75rem 6rem;
+      }
+      .toolbar {
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.6rem;
+        padding: 0.7rem 1.5rem;
+        background: var(--surface);
+        border-bottom: 1px solid var(--hair);
+        z-index: 10;
+        font-family: 'EB Garamond', serif;
+      }
+      .toolbar a,
+      .toolbar button {
+        font-family: inherit;
+        font-size: 0.95rem;
+        font-weight: 600;
+        padding: 0.5rem 1.1rem;
+        border-radius: 999px;
+        border: 1px solid var(--hair);
+        background: var(--paper);
+        color: var(--ink);
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .toolbar button.primary {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: white;
+      }
+
+      /* copertina */
+      .cover {
+        min-height: 78vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 0.4rem;
+        padding: 3rem 1rem;
+        border-bottom: 1px solid var(--hair);
+        margin-bottom: 3rem;
+      }
+      .cover .kicker {
+        font-family: 'EB Garamond', serif;
+        font-weight: 600;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        color: var(--muted);
+      }
+      .cover h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 3.2rem;
+        margin: 0.5rem 0;
+        letter-spacing: 0.01em;
+      }
+      .cover .ornament {
+        font-family: 'EB Garamond', serif;
+        font-size: 1.1rem;
+        color: var(--muted);
+        margin: 1.1rem 0;
+        letter-spacing: 0.5em;
+      }
+      .cover p {
+        font-size: 1.05rem;
+        color: var(--muted);
+        max-width: 28em;
+      }
+      .cover .meta {
+        margin-top: 2.2rem;
+        font-size: 0.95rem;
+        font-style: italic;
+        color: var(--muted);
+      }
+
+      h2.generation-title {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 1.7rem;
+        text-align: center;
+        margin: 3.2rem 0 1.6rem;
+      }
+      h2.generation-title .roman {
+        display: block;
+      }
+      h2.generation-title small {
+        display: block;
+        font-family: 'EB Garamond', serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin-top: 0.3rem;
+      }
+      .generation-rule {
+        text-align: center;
+        color: var(--muted);
+        letter-spacing: 0.6em;
+        font-size: 0.8rem;
+        margin: -0.9rem 0 1.6rem;
+      }
+
+      .person-entry {
+        padding: 0.85rem 0;
+        border-bottom: 1px solid var(--hair);
+      }
+      .reg-num {
+        font-weight: 700;
+        margin-right: 0.15rem;
+      }
+      .reg-name {
+        font-weight: 600;
+        font-variant: small-caps;
+        letter-spacing: 0.02em;
+      }
+      .reg-dates {
+        color: var(--muted);
+      }
+      .reg-detail {
+        margin: 0.2rem 0 0 1.7rem;
+        font-size: 0.94rem;
+      }
+      .reg-detail .muted {
+        color: var(--muted);
+      }
+
+      .index-section h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 1.7rem;
+        text-align: center;
+        margin-bottom: 1.6rem;
+      }
+      .index-grid {
+        columns: 2;
+        column-gap: 2.2rem;
+      }
+      .index-group {
+        break-inside: avoid;
+        margin-bottom: 1.1rem;
+      }
+      .index-group h3 {
+        font-family: 'EB Garamond', serif;
+        font-weight: 600;
+        font-variant: small-caps;
+        letter-spacing: 0.03em;
+        font-size: 1.05rem;
+        margin: 0 0 0.25rem;
+        border-bottom: 1px solid var(--hair);
+      }
+      .index-group ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 0.95rem;
+        color: var(--muted);
+      }
+
+      #status {
+        text-align: center;
+        color: var(--muted);
+        padding: 3rem 1rem;
+      }
+
+      @media print {
+        .toolbar {
+          display: none;
+        }
+        html,
+        body {
+          background: white;
+          color: black;
+          font-size: 12pt;
+        }
+        .page {
+          max-width: none;
+          padding: 0;
+        }
+        .cover {
+          min-height: 90vh;
+          page-break-after: always;
+          border-bottom: none;
+        }
+        .cover h1 {
+          font-size: 34pt;
+        }
+        h2.generation-title {
+          font-size: 18pt;
+        }
+        .index-section {
+          page-break-after: always;
+        }
+        .generation {
+          page-break-before: always;
+        }
+        .person-entry {
+          break-inside: avoid;
+        }
+        * {
+          color: black !important;
+        }
+        @page {
+          size: A4;
+          margin: 22mm 18mm;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="toolbar no-print">
+      <a href="./">← Torna all'albero</a>
+      <button class="primary" onclick="window.print()">Stampa / Salva PDF</button>
+    </div>
+
+    <div class="page" id="page">
+      <div id="status">Preparazione del libro in corso…</div>
+    </div>
+
+    <script type="module">
+      const MESI = {
+        JAN: 'gennaio', FEB: 'febbraio', MAR: 'marzo', APR: 'aprile',
+        MAY: 'maggio', JUN: 'giugno', JUL: 'luglio', AUG: 'agosto',
+        SEP: 'settembre', OCT: 'ottobre', NOV: 'novembre', DEC: 'dicembre',
+      }
+      const ROMAN = ['0', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV']
+
+      function formatDate(raw) {
+        if (!raw) return null
+        const parts = raw.trim().split(/\s+/)
+        if (parts.length === 3 && MESI[parts[1].toUpperCase()]) {
+          return `${parseInt(parts[0], 10)} ${MESI[parts[1].toUpperCase()]} ${parts[2]}`
+        }
+        if (parts.length === 2 && MESI[parts[0].toUpperCase()]) {
+          return `${MESI[parts[0].toUpperCase()]} ${parts[1]}`
+        }
+        return raw
+      }
+      function yearOf(raw) {
+        if (!raw) return null
+        const m = raw.match(/\d{4}/)
+        return m ? parseInt(m[0], 10) : null
+      }
+      function escapeHtml(str) {
+        return String(str ?? '').replace(/[&<>"']/g, (c) => (
+          { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+        ))
+      }
+      function fullName(p) {
+        return [p.givenName, p.surname].filter(Boolean).join(' ')
+      }
+      function romanOf(n) {
+        return ROMAN[n] || String(n)
+      }
+
+      function buildGraph(raw) {
+        const { individuals, families } = raw
+        const ids = Object.keys(individuals)
+        const parentsOf = {}
+        const childrenOf = {}
+        const spouseOf = {}
+        ids.forEach((id) => {
+          parentsOf[id] = []
+          childrenOf[id] = []
+          spouseOf[id] = new Set()
+        })
+        ids.forEach((id) => {
+          const p = individuals[id]
+          if (p.childOfFamily && families[p.childOfFamily]) {
+            const fam = families[p.childOfFamily]
+            if (fam.husbandId && individuals[fam.husbandId]) parentsOf[id].push(fam.husbandId)
+            if (fam.wifeId && individuals[fam.wifeId]) parentsOf[id].push(fam.wifeId)
+          }
+        })
+        ids.forEach((id) => {
+          parentsOf[id].forEach((pid) => childrenOf[pid].push(id))
+        })
+        Object.values(families).forEach((fam) => {
+          if (fam.husbandId && fam.wifeId && individuals[fam.husbandId] && individuals[fam.wifeId]) {
+            spouseOf[fam.husbandId].add(fam.wifeId)
+            spouseOf[fam.wifeId].add(fam.husbandId)
+          }
+        })
+        return { individuals, families, ids, parentsOf, childrenOf, spouseOf }
+      }
+
+      function computeDepths(graph) {
+        const { individuals, ids, parentsOf, spouseOf } = graph
+        const rawDepth = {}
+        function rawDepthOf(id, seen) {
+          if (id in rawDepth) return rawDepth[id]
+          if (seen.has(id)) return 0
+          seen.add(id)
+          const parents = parentsOf[id]
+          const d = parents.length ? 1 + Math.max(...parents.map((p) => rawDepthOf(p, seen))) : 0
+          rawDepth[id] = d
+          return d
+        }
+        ids.forEach((id) => rawDepthOf(id, new Set()))
+
+        const depth = { ...rawDepth }
+        for (let pass = 0; pass < 6; pass++) {
+          let changed = false
+          ids.forEach((id) => {
+            if (rawDepth[id] !== 0) return
+            spouseOf[id].forEach((s) => {
+              if (depth[s] > depth[id]) {
+                depth[id] = depth[s]
+                changed = true
+              }
+            })
+          })
+          if (!changed) break
+        }
+        return depth
+      }
+
+      function assignRegister(graph, depth) {
+        const { individuals, ids, parentsOf, childrenOf, spouseOf } = graph
+        const byGeneration = new Map()
+        ids.forEach((id) => {
+          const g = depth[id]
+          if (!byGeneration.has(g)) byGeneration.set(g, [])
+          byGeneration.get(g).push(id)
+        })
+        const generations = [...byGeneration.keys()].sort((a, b) => a - b)
+
+        const numberOf = {}
+        let counter = 1
+        const order = []
+
+        generations.forEach((g) => {
+          const members = byGeneration.get(g)
+          members.sort((a, b) => {
+            const pa = parentsOf[a][0]
+            const pb = parentsOf[b][0]
+            const na = pa && numberOf[pa] ? numberOf[pa] : Infinity
+            const nb = pb && numberOf[pb] ? numberOf[pb] : Infinity
+            if (na !== nb) return na - nb
+            const ya = yearOf(individuals[a].birthDate) ?? 9999
+            const yb = yearOf(individuals[b].birthDate) ?? 9999
+            return ya - yb
+          })
+          members.forEach((id) => {
+            numberOf[id] = counter++
+            order.push(id)
+          })
+        })
+
+        return { numberOf, order, generations, byGeneration }
+      }
+
+      function personLine(graph, depth, numberOf, id) {
+        const { individuals, families, parentsOf, spouseOf, childrenOf } = graph
+        const p = individuals[id]
+        const num = numberOf[id]
+        const name = fullName(p) || 'Sconosciuto/a'
+        const born = formatDate(p.birthDate)
+        const died = formatDate(p.deathDate)
+        const dates = born || died ? `(${born ? 'n. ' + born : 'n. ?'}${died ? ' – m. ' + died : ''})` : ''
+
+        const lines = []
+        const placeParts = []
+        if (p.birthPlace) placeParts.push(`nato/a a ${escapeHtml(p.birthPlace)}`)
+        if (p.deathPlace) placeParts.push(`morto/a a ${escapeHtml(p.deathPlace)}`)
+        if (p.deathCause) placeParts.push(`causa: ${escapeHtml(p.deathCause)}`)
+        if (placeParts.length) lines.push(`<div class="reg-detail muted">${placeParts.join(' · ')}</div>`)
+
+        const parents = parentsOf[id]
+        if (parents.length) {
+          const parts = parents.map((pid) => `${escapeHtml(fullName(individuals[pid]))} (n° ${numberOf[pid]})`)
+          lines.push(`<div class="reg-detail">Figlio/a di ${parts.join(' e ')}.</div>`)
+        }
+
+        const seenSpouses = new Set()
+        for (const famId of p.spouseInFamilies || []) {
+          const fam = families[famId]
+          if (!fam) continue
+          const partnerId = fam.husbandId === id ? fam.wifeId : fam.husbandId
+          if (!partnerId || !individuals[partnerId] || seenSpouses.has(partnerId)) continue
+          seenSpouses.add(partnerId)
+          const label = fam.divorced ? 'Sposò (poi divorziato/a da)' : 'Sposò'
+          const marriage = formatDate(fam.marriageDate)
+          lines.push(
+            `<div class="reg-detail">${label} ${escapeHtml(fullName(individuals[partnerId]))} (n° ${numberOf[partnerId]})${marriage ? ' il ' + marriage : ''}.</div>`
+          )
+        }
+
+        const kids = childrenOf[id]
+        if (kids.length) {
+          const sorted = [...kids].sort((a, b) => (yearOf(individuals[a].birthDate) ?? 9999) - (yearOf(individuals[b].birthDate) ?? 9999))
+          const parts = sorted.map((cid) => `${escapeHtml(fullName(individuals[cid]))} (n° ${numberOf[cid]})`)
+          lines.push(`<div class="reg-detail">Figli: ${parts.join(', ')}.</div>`)
+        }
+
+        return `
+          <div class="person-entry" id="p-${num}">
+            <span class="reg-num">${num}.</span>
+            <span class="reg-name">${escapeHtml(name)}</span>
+            <span class="reg-dates">${dates}</span>
+            ${lines.join('')}
+          </div>
+        `
+      }
+
+      function buildSurnameIndex(graph, numberOf) {
+        const { individuals, ids } = graph
+        const bySurname = new Map()
+        ids.forEach((id) => {
+          const surname = individuals[id].surname || '—'
+          if (!bySurname.has(surname)) bySurname.set(surname, [])
+          bySurname.get(surname).push(id)
+        })
+        const surnames = [...bySurname.keys()].sort((a, b) => a.localeCompare(b, 'it'))
+        return surnames
+          .map((surname) => {
+            const members = bySurname.get(surname).sort((a, b) => numberOf[a] - numberOf[b])
+            const items = members
+              .map((id) => `<li>${escapeHtml(individuals[id].givenName || '?')} — n° ${numberOf[id]}</li>`)
+              .join('')
+            return `<div class="index-group"><h3>${escapeHtml(surname)}</h3><ul>${items}</ul></div>`
+          })
+          .join('')
+      }
+
+      async function main() {
+        const status = document.getElementById('status')
+        let raw
+        try {
+          const res = await fetch('family_tree_data.json')
+          if (!res.ok) throw new Error(res.status)
+          raw = await res.json()
+        } catch (err) {
+          status.textContent = 'Impossibile caricare i dati dell\'albero genealogico.'
+          console.error(err)
+          return
+        }
+
+        const graph = buildGraph(raw)
+        const depth = computeDepths(graph)
+        const { numberOf, generations, byGeneration } = assignRegister(graph, depth)
+
+        const total = graph.ids.length
+        const today = new Date().toLocaleDateString('it-IT', { year: 'numeric', month: 'long', day: 'numeric' })
+
+        const genSections = generations
+          .map((g) => {
+            const members = byGeneration.get(g)
+            const years = members
+              .map((id) => yearOf(graph.individuals[id].birthDate))
+              .filter(Boolean)
+            const yearRange = years.length ? `${Math.min(...years)} – ${Math.max(...years)} circa` : ''
+            const entries = members.map((id) => personLine(graph, depth, numberOf, id)).join('')
+            return `
+              <section class="generation">
+                <h2 class="generation-title"><span class="roman">Generazione ${romanOf(g + 1)}</span>${yearRange ? `<small>${yearRange}</small>` : ''}</h2>
+                <div class="generation-rule">·  ·  ·</div>
+                ${entries}
+              </section>
+            `
+          })
+          .join('')
+
+        const surnameCount = new Set(graph.ids.map((id) => graph.individuals[id].surname).filter(Boolean)).size
+
+        document.getElementById('page').innerHTML = `
+          <section class="cover">
+            <div class="kicker">Libro di famiglia</div>
+            <h1>Famiglia ${escapeHtml(raw.meta?.surnameFamily || '')}</h1>
+            <div class="ornament">❧</div>
+            <p>Un registro delle ${total} persone e ${surnameCount} cognomi che compongono la nostra famiglia allargata,
+               dai capostipiti più antichi conosciuti fino alle generazioni più recenti.</p>
+            <div class="meta">A cura di Fabrizio Martini · ${today}</div>
+            <div class="meta">Albero genealogico digitale: fabriziomartini.github.io/albero-genealogico</div>
+          </section>
+
+          <section class="index-section">
+            <h2>Indice per cognome</h2>
+            <div class="index-grid">${buildSurnameIndex(graph, numberOf)}</div>
+          </section>
+
+          ${genSections}
+        `
+      }
+
+      main()
+    </script>
+  </body>
+</html>
