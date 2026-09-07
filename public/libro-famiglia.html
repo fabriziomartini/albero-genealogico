@@ -434,10 +434,12 @@
           const partnerId = fam.husbandId === id ? fam.wifeId : fam.husbandId
           if (!partnerId || !individuals[partnerId] || seenSpouses.has(partnerId)) continue
           seenSpouses.add(partnerId)
-          const label = fam.divorced ? 'Sposò (poi divorziato/a da)' : 'Sposò'
+          const hasChildren = (fam.childrenIds || []).some((cid) => individuals[cid])
+          const label = hasChildren ? 'Ebbe figli con' : 'Insieme a'
           const marriage = formatDate(fam.marriageDate)
+          const suffix = fam.divorced ? ' (poi separati)' : ''
           lines.push(
-            `<div class="reg-detail">${label} ${escapeHtml(fullName(individuals[partnerId]))} (n° ${numberOf[partnerId]})${marriage ? ' il ' + marriage : ''}.</div>`
+            `<div class="reg-detail">${label} ${escapeHtml(fullName(individuals[partnerId]))} (n° ${numberOf[partnerId]})${marriage ? ' il ' + marriage : ''}${suffix}.</div>`
           )
         }
 

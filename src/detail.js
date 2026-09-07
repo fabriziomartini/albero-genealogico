@@ -28,11 +28,12 @@ function buildRelations(raw, person) {
     const fam = families[famId]
     if (!fam) continue
     const partnerId = fam.husbandId === person.id ? fam.wifeId : fam.husbandId
+    const children = (fam.childrenIds || []).filter((id) => individuals[id])
     if (partnerId) {
-      const label = fam.divorced ? 'Ex coniuge:' : 'Coniuge:'
+      const base = children.length ? 'Ebbe figli con:' : 'Insieme a:'
+      const label = fam.divorced ? base.replace(':', ' (poi separati):') : base
       parts.push(relationLine(label, partnerId, individuals))
     }
-    const children = (fam.childrenIds || []).filter((id) => individuals[id])
     if (children.length) {
       const links = children.map((id) => personButton(individuals, id)).join(', ')
       parts.push(`<p><span class="field-label">Figli:</span> ${links}</p>`)
