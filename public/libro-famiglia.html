@@ -325,34 +325,48 @@
         return { individuals, families, ids, parentsOf, childrenOf, spouseOf }
       }
 
-      function computeDepths(graph) {
-        const { individuals, ids, parentsOf, spouseOf } = graph
-        const rawDepth = {}
-        function rawDepthOf(id, seen) {
-          if (id in rawDepth) return rawDepth[id]
-          if (seen.has(id)) return 0
-          seen.add(id)
-          const parents = parentsOf[id]
-          const d = parents.length ? 1 + Math.max(...parents.map((p) => rawDepthOf(p, seen))) : 0
-          rawDepth[id] = d
-          return d
+      /**
+       * Generazione di ogni persona, calcolata a partire da una persona di
+       * riferimento (generazione 0): un genitore è sempre una generazione
+       * prima del figlio, un coniuge è nella stessa generazione. Si propaga
+       * con una visita in ampiezza lungo genitori/figli/coniugi partendo dal
+       * riferimento, così ogni persona è posizionata in base alla propria
+       * distanza reale da lui/lei, non in base a quanto a fondo è documentato
+       * il proprio specifico ramo. Se un ramo non ha genitori registrati la
+       * risalita si ferma semplicemente lì, senza inventare nulla.
+       */
+      function computeDepths(graph, anchorId) {
+        const { ids, parentsOf, childrenOf, spouseOf } = graph
+        const anchor = graph.individuals[anchorId] ? anchorId : ids[0]
+        const gen = {}
+        gen[anchor] = 0
+        const queue = [anchor]
+        while (queue.length) {
+          const id = queue.shift()
+          const g = gen[id]
+          parentsOf[id].forEach((p) => { if (!(p in gen)) { gen[p] = g - 1; queue.push(p) } })
+          childrenOf[id].forEach((c) => { if (!(c in gen)) { gen[c] = g + 1; queue.push(c) } })
+          spouseOf[id].forEach((s) => { if (!(s in gen)) { gen[s] = g; queue.push(s) } })
         }
-        ids.forEach((id) => rawDepthOf(id, new Set()))
+        // chi non è raggiungibile dal riferimento (nessun caso nei dati attuali)
+        // resta nella propria generazione strutturale, calcolata a parte, così
+        // da non sparire dal libro.
+        ids.forEach((id) => {
+          if (id in gen) return
+          let g = 0
+          let cur = id
+          const seen = new Set()
+          while (parentsOf[cur].length && !seen.has(cur)) {
+            seen.add(cur)
+            cur = parentsOf[cur][0]
+            g -= 1
+          }
+          gen[id] = g
+        })
 
-        const depth = { ...rawDepth }
-        for (let pass = 0; pass < 6; pass++) {
-          let changed = false
-          ids.forEach((id) => {
-            if (rawDepth[id] !== 0) return
-            spouseOf[id].forEach((s) => {
-              if (depth[s] > depth[id]) {
-                depth[id] = depth[s]
-                changed = true
-              }
-            })
-          })
-          if (!changed) break
-        }
+        const min = Math.min(...Object.values(gen))
+        const depth = {}
+        ids.forEach((id) => { depth[id] = gen[id] - min })
         return depth
       }
 
@@ -478,7 +492,7 @@
         }
 
         const graph = buildGraph(raw)
-        const depth = computeDepths(graph)
+        const depth = computeDepths(graph, 'I500001')
         const { numberOf, generations, byGeneration } = assignRegister(graph, depth)
 
         const total = graph.ids.length
